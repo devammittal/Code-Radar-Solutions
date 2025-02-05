@@ -11,5 +11,8 @@ int main() {
     else if(c>a&&b){
         printf("%d",c);
     }
+    else{
+        printf("None")
+    }
     return 0;
 }
