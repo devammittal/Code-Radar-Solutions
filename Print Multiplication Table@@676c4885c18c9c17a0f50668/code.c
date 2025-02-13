@@ -4,7 +4,7 @@ int main (){
     scanf("%d",&a);
     for(;b<11;b++)
     {
-        printf("%dx%d=%d \n",a,b,a*b);
+        printf("%d x %d = %d \n",a,b,a*b);
     }
     return 0;
 }
