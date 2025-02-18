@@ -1,22 +1,13 @@
 #include <stdio.h>
-
-int isPrime(int num) {
-    if (num < 2) return 0; // Numbers less than 2 are not prime
-    for (int i = 2; i * i <= num; i++) {
-        if (num % i == 0) return 0; // If divisible, not a prime
-    }
-    return 1; // Prime number
-}
-
 int main() {
-    int num;
-    printf("Enter a number: ");
-    scanf("%d", &num);
-
-    if (isPrime(num))
+    int num,i=2;
+    scanf("%d",&a);
+    if(num >1 && i*i<=num){
+        i++;
         printf("Prime");
-    else
+    }
+    else if(num<2 || num%i==0){
         printf("Not Prime");
-
+    }
     return 0;
 }
