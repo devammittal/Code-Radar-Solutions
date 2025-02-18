@@ -1,14 +1,16 @@
-#include <stdio.h>
-int main() {
-    int num,i=2;
-    scanf("%d",&num);
-    for(int i=2; i*i<=num; i++){
-        if(num<2 && num%i==0){
+#include "stdio.h"
+int main (){
+    int a,b=0;
+    scanf("%d ",&a);
+    for(int a=2; i<a; i++){
+        if(a%i==0)
+        b=1;
+    }
+    if(b==1){
         printf("Not Prime");
-        }
-        else if(num>1 && num%num==0 && num%1==0){
-            printf("Prime");
-        }
+    }
+    else{
+        printf("Prime");
     }
     return 0;
 }
