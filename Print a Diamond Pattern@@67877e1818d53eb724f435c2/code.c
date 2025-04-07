@@ -5,7 +5,7 @@ int main(){
     int nst=1;
     int nsp=n-1;
     int ml=n;
-    for(int i=1; i<=n; i++){
+    for(int i=1; i<=n+1; i++){
         for(int j=1; j<=nsp; j++){
             printf(" ");
         }
