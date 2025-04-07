@@ -20,7 +20,7 @@ int main(){
             nsp++;
             nst = nst - 2;
         }
-        return 0;
+        printf("\n");
     }
     return 0;
 }
