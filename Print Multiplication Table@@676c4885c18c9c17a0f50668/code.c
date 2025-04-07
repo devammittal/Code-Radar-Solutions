@@ -2,9 +2,10 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int a=0;
-    for(int i=1; i<=10; a=a+n){
-        printf("%d x %d = %d",n,i,a);
+    int a=1;
+    for(int i=n; i<=n*10; i=i+n){
+        printf("%d x %d = %d",n,a,i);
+        a++;
     }
     return 0;
 }
