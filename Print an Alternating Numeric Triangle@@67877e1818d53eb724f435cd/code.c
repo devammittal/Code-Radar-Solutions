@@ -9,20 +9,20 @@ int main(){
     if(i%2!=0){
         for(int j=1; j<=i; j++){
             if(j%2!=0){
-                printf("%d",a);
+                printf("%d ",a);
             }
             else{
-                printf("%d",b);
+                printf("%d ",b);
             }
         }
     }
     else{
         for(int k=1; k<=i; k++){
             if(k%2==0){
-                printf("%d",a);
+                printf("%d ",a);
             }
             else{
-                printf("%d",b);
+                printf("%d ",b);
             }
         }
     }
