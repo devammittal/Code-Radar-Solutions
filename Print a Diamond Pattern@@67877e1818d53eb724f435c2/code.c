@@ -2,18 +2,25 @@
 int main(){
     int n;
     scanf("%d",&n);
+    int nst=1;
+    int nsp=(n/2)+1;
+    int ml=(n/2)+1;
     for(int i=1; i<=n; i++){
-        for(int j=n; j>=i; j--){
+        for(int j=1; j<=nsp; j++){
             printf(" ");
         }
-        for(int k=1; k<=i; k++){
+        for(int k=1; k<=nst; k++){
             printf("*");
         }
-        int a=i-1;
-        for(int l=1; l<=i-1; l++){
-            printf("*");
+        if(i<ml){
+            nsp--;
+            nst = nst+2;
         }
-        printf("\n");
+        else{
+            nsp++;
+            nst = nst - 2;
+        }
+        return 0;
     }
     return 0;
 }
