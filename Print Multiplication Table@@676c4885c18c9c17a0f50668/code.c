@@ -5,7 +5,7 @@ int main(){
     int a=1;
     for(int i=n; i<=n*10; i=i+n){
         a++;
-        printf("%d x %d = %d",n,a,i);
+        printf("%d x %d = %d\n",n,a,i);
     }
     return 0;
 }
